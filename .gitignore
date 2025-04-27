@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -22,3 +22,48 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Eclipse, IntelliJ, NetBeans IDE files
+/.idea
+/.project
+/.classpath
+/.settings/
+/*.iml
+
+# Maven directories
+target/
+
+# Gradle directories (if applicable)
+.gradle/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java H2 database files (if applicable)
+*.db
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Generated files
+*.log
+*.bak
+*.swp
+*.swo
+
+# JetBrains IDE (IntelliJ, WebStorm, etc.) folder files
+.idea/
+
+# VS Code
+.vscode/
+
+# Node modules (if you're using Node.js for the front-end)
+node_modules/
+
+# Environment-specific files
+.env
+
